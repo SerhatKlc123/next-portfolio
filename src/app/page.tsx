@@ -7,12 +7,15 @@ import StarsCanvas from "@/components/Star";
 
 export default function Home() {
   return (
+    <>
+    <StarsCanvas />
     <div className="overflow-x-clip" >
-      <StarsCanvas />
       <Hero />
       <Skills />
       <Projects />
       <FixedCircleButton />
     </div>
+    </>
+  
   );
 }
