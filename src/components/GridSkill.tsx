@@ -18,12 +18,12 @@ export default function GridSkills()
     return(
     <div className="grid lg:grid-cols-2 grid-cols-1 w-full gap-4">
         {items.map((item, index) => (
-        <div key={index} className="w-full flex items-center justify-start bg-gradient-to-r from-purple-700 via-purple-500 to-purple-400 rounded-lg text-start lg:h-[120px] h-[170px] p-3 border-[3px] border-[#170428] hover:border-white transition duration-100 ease-in-out z-30"> 
+        <div key={index} className="w-full flex items-center justify-start bg-gradient-to-r from-[#5246bc] via-[#8482e6] to-[#adaff4] rounded-lg text-start lg:h-[120px] h-[170px] p-3 border-[3px] border-[#170428] hover:border-white transition duration-100 ease-in-out z-30"> 
           <Image src={item.path} alt={item.skill} width={70} height={70} />
         
             <div className="flex flex-col p-3">
             <p className="text-[#eae6ff] font-semibold text-lg">{item.skill}</p>
-            <p className="text-[#d5cdff] font-normal text-sm">{item.explain}</p>
+            <p className="text-[#d5cdff] font-normal text-xs md:text-sm">{item.explain}</p>
 
             </div>
         </div>

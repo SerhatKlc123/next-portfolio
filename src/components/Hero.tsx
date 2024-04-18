@@ -11,9 +11,9 @@ export default function Hero() {
                 Wellcome to my portfolio!</div>
             <div
                 className="text-white font-semibold md:text-[55px] text-[40px] text-center">
-                Hello, my name is <span className="bg-gradient-to-r from-purple-700 via-purple-400 to-purple-300 text-transparent bg-clip-text">Serhat</span></div>
+                Hello, my name is <span className="bg-gradient-to-r from-[#5246bc] via-[#8482e6] to-[#adaff4] text-transparent bg-clip-text">Serhat</span></div>
             <div className="text-white font-normal md:text-[25px] text-[20px] pb-4">
-                I am a <span className="bg-gradient-to-r from-purple-700 via-purple-400 to-purple-300 text-transparent bg-clip-text">frontend developer</span> from Turkey</div>
+                I am a <span className="bg-gradient-to-r from-[#5246bc] via-[#8482e6] to-[#adaff4] text-transparent bg-clip-text">frontend developer</span> from Turkey</div>
             <div className="flex items-center justify-center text-white w-screen pb-12">
                 <HeroButton name="Contact" redirect="/contact" />
                 <HeroButton name="Hire Me" redirect="/hire" />

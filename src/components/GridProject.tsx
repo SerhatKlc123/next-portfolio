@@ -30,19 +30,19 @@ export default function GridProject()
                     <Image src={project.path} alt={project.name} width={300} height={170} className="h-[170px] rounded-xl"/>
                     </div>
                     <div className="flex-auto flex-col items-start justify-start lg:pl-8 pl-0 pb-5">
-                        <div className="text-base font-semibold pb-2 text-purple-500 lg:pt-0 pt-4">{project.name}</div>
+                        <div className="text-base font-semibold pb-2 text-[#5246bc] lg:pt-0 pt-4">{project.name}</div>
                         <div className="text-sm text-white font-normal">{project.description}</div>
                         <div className="flex items-center justify-center w-fit py-3 text-sm">
                 
                             <FaDownload className="text-lg mr-2" />
                             <div>{project.install}</div>
                             <FaChrome className="mr-2 text-lg ml-5" />
-                            <a href={project.web} target="_blank" className="text-[#bdb0ff]">{project.web}</a>
+                            <a href={project.web} target="_blank" className="text-[#adaff4]">{project.web}</a>
                         </div>
                         <div className="flex flex-row justify-start">
                 {
                     project.tech.map((t, i)=>(
-                        <div key={i} className="bg-purple-500 px-3 py-1 rounded-full mx-1 text-xs">
+                        <div key={i} className="bg-[#5246bc] px-3 py-1 rounded-full mx-1 text-xs">
                             {t}
                         </div>
                     ))

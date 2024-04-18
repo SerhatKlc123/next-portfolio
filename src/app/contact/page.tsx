@@ -60,21 +60,21 @@ const ContactForm: React.FC = () => {
                     onChange={nameHandler}
                     name="fullName"
                     placeholder={"Fullname"}
-                    className="border  border-purple-500 bg-[#0a0d10] p-3 rounded-lg text-purple-500 focus:text-gray-300 placeholder:text-purple-500 z-50"
+                    className="border  border-[#8482e6] bg-[#0a0d10] p-3 rounded-lg text-[#8482e6] focus:text-gray-300 placeholder:text-[#8482e6] z-50"
                     style={{ width: '100%' }}
                 />
             </div>
             <div className="pb-4">
                 <input type="email" value={email} onChange={mailHandler} name="email" placeholder={"Email"}
                     style={{ width: '100%' }}
-                    className="border border-purple-500 bg-[#0a0d10] p-3 rounded-lg text-purple-500 focus:text-gray-300 placeholder:text-purple-500" />
+                    className="border border-[#8482e6] bg-[#0a0d10] p-3 rounded-lg text-[#8482e6] focus:text-gray-300 placeholder:text-[#8482e6]" />
             </div>
             <div>
-                <textarea rows={5} value={message} onChange={messageHandler} name="message" placeholder={"Message"} className="border border-purple-500 bg-[#0a0d10] p-2 rounded-lg text-purple-500 focus:text-gray-300 placeholder:text-purple-500"
+                <textarea rows={5} value={message} onChange={messageHandler} name="message" placeholder={"Message"} className="border border-[#8482e6] bg-[#0a0d10] p-2 rounded-lg text-[#8482e6] focus:text-gray-300 placeholder:text-[#8482e6]"
                     style={{ width: '100%' }}
                 />
             </div>
-            <input type="submit" className="font-bold text-white bg-gradient-to-r border-[1px] hover:border-[3px] border-purple-600 hover:border-purple-200 from-purple-700 via-purple-400 to-purple-300  px-4 py-3 my-8 mx-auto flex items-center rounded-lg" value={wait ? "Senfing..." : "Request Contact"} />
+            <input type="submit" className="font-bold text-white bg-gradient-to-r border-[1px] hover:border-[3px] border-purple-600 hover:border-purple-200 from-[#8482e6] via-[#8482e6] to-[#adaff4]  px-4 py-3 my-8 mx-auto flex items-center rounded-lg" value={wait ? "Senfing..." : "Request Contact"} />
         </form>
        </div>
     );
