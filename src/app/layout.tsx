@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#170428] w-full h-auto inset-0 overflow-x-hidden`}>
+      <body className={`${inter.className} bg-[#010b19] w-full h-auto inset-0 overflow-x-hidden`}>
         
         <Navbar />
         <SocialLinks />
