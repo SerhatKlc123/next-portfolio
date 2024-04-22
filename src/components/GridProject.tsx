@@ -26,8 +26,8 @@ export default function GridProject()
              projects.map((project , index) => (
               
                 <div key={index} className="flex lg:flex-row flex-col lg:items-start lg:justify-start items-center justify-center pb-5 w-fit z-30 text-white h-auto">
-                    <div className="flex-none lg:pb-0 pb-5 shadow-inner border-[0.75px] hover:border-[0.75px] shadow-[#5246bc]  border-[#5246bc] hover:border-white transition duration-100 ease-in-out rounded-xl">
-                    <Image src={project.path} alt={project.name} width={300} height={170} className="h-[170px] rounded-xl"/>
+                    <div className="flex-none lg:pb-0 shadow-inner border-[0.75px] hover:border-[0.75px] shadow-[#5246bc]  border-[#5246bc] hover:border-white transition duration-100 ease-in-out rounded-xl">
+                    <Image src={project.path} alt={project.name} width={300} height={170} className="rounded-xl"/>
                     </div>
                     <div className="flex-auto flex-col items-start justify-start lg:pl-8 pl-0 pb-5">
                         <div className="text-base font-semibold pb-2 text-[#5246bc] hover:text-white lg:pt-0 pt-4">{project.name}</div>
