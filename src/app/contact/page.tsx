@@ -47,11 +47,11 @@ const ContactForm: React.FC = () => {
 
     return (
        <div className="h-screen w-screen flex-col justify-center items-center pt-[80px] px-5">
-        <div className="p-5 xl:px-60 pr-2 pl-2">
+        <div className="p-5 xl:px-96 pr-2 pl-2">
         <Title title="Contact" subtitle="# Reach out to me for any inquiries or collaborations. We'll reply in 24 hours." />
         </div>
         
-         <form ref={form} onSubmit={sendEmail} className="p-5 pb-10 xl:px-60 pr-2 pl-2 ">
+         <form ref={form} onSubmit={sendEmail} className="p-5 pb-10 xl:px-96 pr-2 pl-2 ">
             
             <div className="pb-4 z-50">
                 <input
