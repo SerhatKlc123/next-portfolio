@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 export default function Navbar()
 {
-    const [top, setTop] = useState(false)
+    const [top, setTop] = useState(true)
     
     useEffect(()=>{
         checkScrollEvent();
@@ -14,7 +14,7 @@ export default function Navbar()
     
     function checkScrollEvent(){
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 0) {
+            if (window.scrollY > 20) {
                setTop(false)
             } else {
                 setTop(true)
