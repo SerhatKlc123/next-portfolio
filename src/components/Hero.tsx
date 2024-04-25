@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="flex flex-col items-center justify-center text-white px-10 h-screen w-screen">
             <Lottie animationData={dev} loop={true} className="h-3/5"/>
             <div className="text-white font-normal md:text-[20px] text-[15px]">
-                Wellcome to my portfolio!</div>
+                Welcome to my portfolio!</div>
             <div
                 className="text-white font-semibold md:text-[55px] text-[40px] text-center">
                 Hello, my name is <span className="bg-gradient-to-r from-[#5246bc] via-[#8482e6] to-[#adaff4] text-transparent bg-clip-text">Serhat</span></div>
